@@ -1,0 +1,85 @@
+/*
+Theme Name: topdeseos.com
+Theme URI: http://www.topdeseos.com;
+Description: Theme para Topdeseos.com
+Version: 1.0
+Author: Safor Valley
+*/
+
+#header {
+	background-image: url(images/topdeseo/header_bg.jpg);
+ 	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 102%;
+    height: 100%;
+	/*background-size: 100% 100%;*/
+	text-align: center;
+	padding-bottom: 2em;
+}
+#logo{
+	display: block;
+	margin: 0 auto;
+
+}
+#boton_container{
+	margin-top: -1.6875em;
+	margin-bottom: 1em;
+}
+section{
+	
+}
+button#juega{
+	font-family: papyrus;
+	font-size: 2em;
+}
+.titulo_papiro{
+	font-size: 2em;
+	font-family: papyrus !important;
+}
+.subtitulo{
+	color: #000;
+	font-weight: bold;
+	text-shadow: 0 0 6px #fff, 0 0 5px #fff, 0 0 4px #fff, 0 0 3px #fff, 0 0 2px #fff, 0 0 1px #fff;
+	font-family: papyrus;
+}
+.navbar{
+	background: url('images/topdeseo/nav_bg.png') repeat-x;
+	margin-bottom: 0px !important;
+}
+
+.navbar-nav > li > a{
+	color: white !important;
+	font-family: 'papyrus';
+	font-size: 1.6em;
+	font-weight: bold;
+}
+.navbar-nav > li > a:hover{
+	color: darkgray !important;
+}
+
+/*DIAPO*/
+#sistema_diapo{
+	
+}
+.diapo{
+	width: 100%;
+	max-width: 320px;
+}
+.diapo_1{
+	background: url(images/topdeseo/fondo1.jpg);
+	width: 100%;
+	height: auto;
+}
+
+/*oocss*/
+.centered{
+	text-align: center;
+}
+
+.gradient {
+  background-image:
+    linear-gradient(
+      #f1ebc9, #f0d4a1
+    );
+}
